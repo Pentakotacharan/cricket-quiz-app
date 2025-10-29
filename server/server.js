@@ -1,7 +1,7 @@
 const dotenv = require('dotenv')
 const app = require('./app')
 const cors=require('cors');
-app.use(cors());
+
 const connectDB = require('./config/db')
 
 // Load environment variables

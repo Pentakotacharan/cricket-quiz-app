@@ -12,14 +12,15 @@ const userRoutes = require('./routes/userRoutes')
 // Create Express app
 const app = express()
 
+
 // Security middleware
 app.use(helmet())
 
 
 const allowedOrigins = [
-  'http://localhost:3000',          // frontend dev
-  'http://localhost:5173',          // Vite
-  'http://127.0.0.1:3000',          // some setups
+            // frontend dev
+           // Vite
+  'https://cricket-quizapp.vercel.app/'         // some setups
   // add other local origins you'd use
 ];
 
